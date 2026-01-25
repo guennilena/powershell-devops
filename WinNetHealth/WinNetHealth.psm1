@@ -87,8 +87,9 @@ function Test-WinNetHealth {
             }
         }
 
-    $fwInboundTotal  = $fwRules.Count
-    $fwInboundEnabled = ($fwRules | Where-Object Enabled).Count
+    $items = @($fwRules)
+    $fwInboundTotal  = $items.Count
+    $fwInboundEnabled = ($items | Where-Object Enabled).Count
 
     # Remote connectivity tests (optional)
     $remote = $null
