@@ -25,7 +25,7 @@ powershell-devops
 PowerShell tooling for network and system health checks.
 Includes Pester tests and CI validation.
 
-# Tooling
+## Tooling
 * PowerShell (pwsh)
 * Pester
 * GitHub Actions
