@@ -1,0 +1,22 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.code-workspace
+
+# PowerShell build & test
+artifacts/
+TestResults/
+*.nupkg
+*.zip
+
+# Analysis / CI
+*.sarif
+
+# Local-only files
+*.env
+
+# Runtime artifacts
+logs/
+
+
