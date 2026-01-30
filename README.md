@@ -1,8 +1,6 @@
 # powershell-devops
 
-[![CI](https://github.com/guennilena/powershell-devops/actions/workflows/ci.yml/badge.svg)](
-https://github.com/guennilena/powershell-devops/actions/workflows/ci.yml
-)
+[![CI](https://github.com/guennilena/powershell-devops/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/guennilena/powershell-devops/actions/workflows/ci.yml)
 
 Collection of PowerShell projects with a focus on automation,
 quality gates, and CI/CD using GitHub Actions.
